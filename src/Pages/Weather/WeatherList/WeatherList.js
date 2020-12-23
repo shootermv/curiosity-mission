@@ -6,7 +6,7 @@ export default function WeatherItemsList({ items }) {
   return (
     <section className="weather-items-list">
       {items.map((itm) => (
-        <WeatherItem key={itm.id} item={itm} />
+        <WeatherItem key={itm.DataPoint} item={itm} />
       ))}
     </section>
   );
