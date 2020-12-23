@@ -3,6 +3,7 @@ import useFetch from "use-http";
 import { format } from "date-fns";
 import { Loader } from "../../../components/Loader/Loader";
 import "./ImageGallery.css";
+import Image from "../../../components/Image";
 
 export default function ImageGallery() {
   const url = process.env.REACT_APP_NASA_PHOTO_URL;
@@ -45,7 +46,7 @@ export default function ImageGallery() {
           data?.photos.map((img) => (
             <li key={img.id}>
               <figure>
-                <img src={img.img_src} alt="Trulli" />
+                <Image image={img} alt="Trulli" />
               </figure>
             </li>
           ))}
