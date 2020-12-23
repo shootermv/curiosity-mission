@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b36e4b7ec8983cd4c35c21c510d67d1",
+    "revision": "951cfa86d22840cb2117f387d8aaa385",
     "url": "/curiosity-mission/index.html"
   },
   {
-    "revision": "339c55506700e6553cd5",
+    "revision": "ddc3c9727870fda20bdc",
     "url": "/curiosity-mission/static/css/main.672de720.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curiosity-mission/static/js/2.8a80ec36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "339c55506700e6553cd5",
-    "url": "/curiosity-mission/static/js/main.eb0959e7.chunk.js"
+    "revision": "ddc3c9727870fda20bdc",
+    "url": "/curiosity-mission/static/js/main.253cb6d3.chunk.js"
   },
   {
     "revision": "2a14b2faade822394392",
