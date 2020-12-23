@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "935f2b8adbcbec8519b695842a03af09",
+    "revision": "46af941a97a0b6a1fad99c76a903d824",
     "url": "/curiosity-mission/index.html"
   },
   {
-    "revision": "48c8b6e4e44f07ce9240",
+    "revision": "f1a68b42c28bb120de92",
     "url": "/curiosity-mission/static/css/2.e6ac38db.chunk.css"
   },
   {
-    "revision": "7d1249be85dc14043039",
+    "revision": "4227b1ee42895f89b3f6",
     "url": "/curiosity-mission/static/css/main.5d06cbeb.chunk.css"
   },
   {
-    "revision": "48c8b6e4e44f07ce9240",
-    "url": "/curiosity-mission/static/js/2.1c17b6d3.chunk.js"
+    "revision": "f1a68b42c28bb120de92",
+    "url": "/curiosity-mission/static/js/2.e86e579d.chunk.js"
   },
   {
     "revision": "bc61cb748514f5afeb9d09b0e0384399",
-    "url": "/curiosity-mission/static/js/2.1c17b6d3.chunk.js.LICENSE.txt"
+    "url": "/curiosity-mission/static/js/2.e86e579d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d1249be85dc14043039",
-    "url": "/curiosity-mission/static/js/main.12971532.chunk.js"
+    "revision": "4227b1ee42895f89b3f6",
+    "url": "/curiosity-mission/static/js/main.af5bddcb.chunk.js"
   },
   {
     "revision": "2a14b2faade822394392",
