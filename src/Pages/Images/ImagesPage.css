@@ -1,14 +1,11 @@
-.images-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+.images-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-/* desktop */
-@media only screen and (min-width: 600px) {
-    .images-list {
-        grid-template-columns: repeat(5, 1fr);
-    }
-}
-.images-list img {
-    width: 100%;
+
+.list-wrap {
+  flex: 1;
+  overflow-y: auto; /* trying to make the main list to be scrollable*/
 }
