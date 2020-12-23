@@ -3,7 +3,7 @@ import Image from "./Image/Image";
 import "./ImagesList.css";
 
 export default function ImagesList({ images }) {
-  if (images.length == 0) return <div className="error">Looks Like This Page not Exist...</div>
+  if (images.length === 0) return <div className="error">Looks Like This Page Does Not Exist...</div>
   return (
     <section className="images-list">
       {images.map((img) => (
