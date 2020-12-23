@@ -9,7 +9,7 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Router>
         <Navbar />
         <div className="App">
@@ -29,6 +29,6 @@ export default function App() {
           </Switch>
         </div>
       </Router>
-    </div>
+    </main>
   );
 }

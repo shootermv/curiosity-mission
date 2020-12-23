@@ -5,8 +5,6 @@ export const Navbar = () => {
   return (
     <nav>
       <section>
-        <h1>Assignment</h1>
-
         <div className="navContent">
           <div className="navLinks">
             <Link to="/">About</Link>

@@ -1,0 +1,22 @@
+.img-gallery ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+}
+.img-gallery li {
+    padding-right: 10px;
+}
+.img-gallery figure {
+    margin: 0;
+}
+.img-gallery figure img {
+    height: 100px;
+}
+.img-gallery .forward-button {
+    position: absolute;
+    right: 0px;
+    height: 100px;
+}
