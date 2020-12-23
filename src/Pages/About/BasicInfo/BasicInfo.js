@@ -8,10 +8,10 @@ export default function BasicInfo() {
         <article>
           <figure>
             <img
-              src="https://www.w3schools.com/tags/pic_trulli.jpg"
-              alt="Trulli"
+              src="https://mars.nasa.gov/system/feature_items/images/6037_msl_banner.jpg"
+              alt="Curiosity"
             />
-            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+            <figcaption>Curiosity.</figcaption>
           </figure>
 
           <div className="text">
