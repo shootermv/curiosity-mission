@@ -4,7 +4,10 @@
     flex-direction: column;
     align-items: center;
 }
-
+.images-page header{
+    text-align: left;
+    align-self: stretch;
+}
 .list-wrap {
   flex: 1;
   overflow-y: auto; /* trying to make the main list to be scrollable*/

@@ -28,6 +28,7 @@ export default function ImagesPage() {
   return (
     <div className="images-page">
       <header>
+        <h1>Mars Images By Date</h1>
         <label>Earth date:</label> <DatePicker selected={date} onChange={dat => setDate(dat)} />
       </header>
       <div className="list-wrap">
