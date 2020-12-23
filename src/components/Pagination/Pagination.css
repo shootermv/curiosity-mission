@@ -1,0 +1,15 @@
+.pagination {
+    display: flex;
+    list-style-type: none;
+}
+.pagination li {
+  border: 1px solid blue;
+  padding: 10px;
+  cursor: pointer;
+}
+.pagination li[disabled] {
+    border: 1px solid gray;
+ }
+.pagination li.current {
+    border: 1px solid red;
+}
