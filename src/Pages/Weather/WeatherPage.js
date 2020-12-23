@@ -18,7 +18,7 @@ export default function WeatherPage() {
   const [orderBy, setOrderBy] = useState("Temperature");
 
   return (
-    <div className="weather-page">
+    <section className="weather-page">
       <header>
         <h1>Mars Weather</h1>
 
@@ -32,6 +32,6 @@ export default function WeatherPage() {
       <div className="list-wrap">
         <WeatherItemsList items={sortData(data, orderBy)} />
       </div>
-    </div>
+    </section>
   );
 }

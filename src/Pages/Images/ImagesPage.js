@@ -26,7 +26,7 @@ export default function ImagesPage() {
   ]);
 
   return (
-    <div className="images-page">
+    <section className="images-page">
       <header>
         <h1>Mars Images By Date</h1>
         <label>Earth date:</label> <DatePicker selected={date} onChange={dat => setDate(dat)} />
@@ -42,6 +42,6 @@ export default function ImagesPage() {
           setPage(pg);
         }}
       />
-    </div>
+    </section>
   );
 }

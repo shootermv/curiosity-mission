@@ -7,6 +7,7 @@
 .images-page header {
   text-align: left;
   align-self: stretch;
+  padding-bottom: 1em;
 }
 .list-wrap {
   flex: 1;
