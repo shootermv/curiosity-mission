@@ -5,8 +5,8 @@ export default function ImageGallery() {
     <section className="img-gallery">
       <h2>Curiosity rover images from today</h2>
       <ul>
-        {[1, 2, 3, 4, 5].map(() => (
-          <li>
+        {[1, 2, 3, 4, 5].map((num) => (
+          <li key={num}>
             <figure>
               <img
                 src="https://www.w3schools.com/tags/pic_trulli.jpg"

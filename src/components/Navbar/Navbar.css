@@ -1,0 +1,21 @@
+.top-nav {
+  display: flex;
+  padding: 0;
+  background: var(--redux-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 10px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.3); 
+}
+
+.top-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.top-nav a.active {
+  background: #481499;
+}

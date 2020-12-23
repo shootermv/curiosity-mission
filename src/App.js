@@ -3,7 +3,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import AboutPage from "./Pages/About/AboutPage";
 import WeatherPage from "./Pages/Weather/WeatherPage";
 import ImagesPage from "./Pages/Images/ImagesPage";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./components/Navbar/Navbar";
 
 import "./styles.css";
 
