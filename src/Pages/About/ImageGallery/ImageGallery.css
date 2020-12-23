@@ -1,31 +1,31 @@
-.img-gallery{
-    position: relative;
+.img-gallery {
+  position: relative;
 }
-
 .img-gallery ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
 }
 .img-gallery li {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 .img-gallery figure {
-    margin: 0;
+  margin: 0;
 }
 .img-gallery figure img {
-    height: 100px;
+  height: 10em;
+  max-width: 10em;
 }
 .img-gallery .forward-button {
-    position: absolute;
-    right: 0px;
-    bottom: 3px;
-    height: 102px;
-    z-index: 2;
-    background: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 47px;
+  height: 13em;
+  z-index: 2;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }

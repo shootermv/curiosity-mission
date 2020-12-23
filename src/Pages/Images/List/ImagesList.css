@@ -9,6 +9,3 @@
         grid-template-columns: repeat(5, 1fr);
     }
 }
-.images-list img {
-    width: 100%;
-}

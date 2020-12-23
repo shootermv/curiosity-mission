@@ -11,7 +11,7 @@ export default function BasicInfo() {
               src="https://mars.nasa.gov/system/feature_items/images/6037_msl_banner.jpg"
               alt="Curiosity"
             />
-            <figcaption>Curiosity.</figcaption>
+            <figcaption>Curiosity rover image</figcaption>
           </figure>
 
           <div className="text">
@@ -27,8 +27,7 @@ export default function BasicInfo() {
               Italuglia, Ital uglia, Italuglia, Ital Fig.1 - Trulli, Puglia,
               Italy. uglia, Italuglia, Italuglia, Ital Trulli, - Trulli, Puglia,
               Italy. uglia, Italuglia, Italuglia, Ital Fig.1 - Trulli, Puglia,
-              Italy. uglia, Italuglia, Italuglia, Italuglia, Italuglia,
-              Italuglia, Ital
+              Italy. uglia, 
             </div>
             <div className="links-wrap">
               <Link to="/weather">Weather</Link>

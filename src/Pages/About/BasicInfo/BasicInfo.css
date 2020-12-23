@@ -41,7 +41,7 @@
 }
 
 .basic-info article .links-wrap {
-  padding: 10px 0 40px;
+  padding: 21px 0 40px;
   display: flex;
 }
 
@@ -52,4 +52,7 @@
   margin-right: 10px;
   text-decoration: none;
   color: #333;
+}
+.basic-info article .links-wrap a:hover {
+  color: #fff;
 }
