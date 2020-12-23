@@ -1,15 +1,19 @@
 .pagination {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 .pagination li {
-  border: 1px solid blue;
-  padding: 10px;
+  border: 1px solid #333;
+  padding: 6px 10px;
   cursor: pointer;
+  margin: 2px;
+  border-radius: 4px;
 }
 .pagination li[disabled] {
-    border: 1px solid gray;
- }
+  opacity: 0.4;
+}
 .pagination li.current {
-    border: 1px solid red;
+  background: rgb(143, 11, 11);
+  color: #fff;
+  border: none;
 }
