@@ -1,5 +1,8 @@
-.img-gallery ul {
+.img-gallery{
     position: relative;
+}
+
+.img-gallery ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,5 +21,11 @@
 .img-gallery .forward-button {
     position: absolute;
     right: 0px;
-    height: 100px;
+    bottom: 3px;
+    height: 102px;
+    z-index: 2;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }

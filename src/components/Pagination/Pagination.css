@@ -4,7 +4,7 @@
 }
 .pagination li {
   border: 1px solid #333;
-  padding: 6px 10px;
+  padding: 0.4em;
   cursor: pointer;
   margin: 2px;
   border-radius: 4px;
