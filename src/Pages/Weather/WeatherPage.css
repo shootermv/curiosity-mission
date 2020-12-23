@@ -1,0 +1,7 @@
+.weather-page header {
+    display: flex;
+    align-items: center;
+}
+.weather-page header h1{ 
+    flex: 1;
+}

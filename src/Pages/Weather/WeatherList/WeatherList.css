@@ -1,0 +1,19 @@
+.weather-items-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+/* desktop */
+@media only screen and (min-width: 600px) {
+  .weather-items-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.weather-item {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+.weather-item .entry {
+    display: flex;
+}

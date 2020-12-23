@@ -36,12 +36,12 @@ export default function ImagesPage() {
         {loading && <Loader />}
         {!loading && <ImagesList images={data?.photos} />}
       </div>
-      {!!data?.photos.length && <Pagination
+      <Pagination
         currentPage={page}
         onPgClicked={(pg) => {
           setPage(pg);
         }}
-      />}
+      />
     </div>
   );
 }
