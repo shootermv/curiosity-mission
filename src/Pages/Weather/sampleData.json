@@ -1,25 +1,25 @@
 [
     {
         "DataPoint": 123,
-        "Tempertaure": 1,
+        "Temperature": 1,
         "Wind": 1,
         "Pressure": 8
     },
     {
         "DataPoint": 124,
-        "Tempertaure": 45,
+        "Temperature": 45,
         "Wind": -1,
         "Pressure": 44
     },
     {
         "DataPoint": 125,
-        "Tempertaure": 15,
+        "Temperature": 15,
         "Wind": -22,
         "Pressure": 54
     },
     {
         "DataPoint": 126,
-        "Tempertaure": 15.7,
+        "Temperature": 15.7,
         "Wind": -2,
         "Pressure": 51
     }
