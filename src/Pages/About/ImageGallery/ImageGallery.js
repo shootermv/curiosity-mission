@@ -45,9 +45,7 @@ export default function ImageGallery() {
           data?.photos &&
           data?.photos.map((img) => (
             <li key={img.id}>
-              <figure>
-                <Image image={img} alt="Trulli" />
-              </figure>
+              <Image image={img} alt={img.camera.name} />
             </li>
           ))}
       </ul>

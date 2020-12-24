@@ -11,9 +11,6 @@
 .img-gallery li {
   padding-right: 10px;
 }
-.img-gallery figure {
-  margin: 0;
-}
 .img-gallery .forward-button {
   position: absolute;
   right: 0px;

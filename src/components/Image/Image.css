@@ -1,4 +1,26 @@
-.img {
-    height: 10em;
-    max-width: 10em;
+.img--wrap .img {
+  height: 10em;
+  max-width: 10em;
+}
+.img--wrap {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+.img--wrap figcaption {
+  opacity: 0;
+  position: absolute;
+  top: 3em;
+  left: 0;
+  right: 0;
+  background:rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1em;
+  text-align: left;
+}
+.img--wrap:hover figcaption {
+  opacity: 1;
+  transform: translateY(5em);
+  transition: top 0.2s ease-in-out;
+  top: 0em;
 }
