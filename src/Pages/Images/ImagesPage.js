@@ -30,7 +30,7 @@ export default function ImagesPage() {
       <header>
         <h1>Mars Images By Date</h1>
         <label>Earth date:</label>{" "}
-        <DatePicker selected={date} onChange={(dat) => setDate(dat)} />
+        <DatePicker selected={date} onChange={setDate} />
       </header>
       <div className="list-wrap">
         {error && <div className="error">Some error occurred</div>}
