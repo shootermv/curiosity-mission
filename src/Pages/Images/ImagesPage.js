@@ -39,9 +39,7 @@ export default function ImagesPage() {
       </div>
       <Pagination
         currentPage={page}
-        onPgClicked={(pg) => {
-          setPage(pg);
-        }}
+        onPgClicked={setPage}
       />
     </section>
   );
