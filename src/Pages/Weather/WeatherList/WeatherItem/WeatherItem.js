@@ -12,7 +12,7 @@ export default function WeatherItem({ item }) {
       ))}*/}
       <div className="entry">
         <div>Data Point: </div>
-        <div>{item.DataPoint}</div>
+        <div>{item.id}</div>
       </div>
       <div className="entry">
         <div>Temperature: </div>
